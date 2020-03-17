@@ -1,6 +1,8 @@
+import model from '../models/main.model.js';
 const ctr =  {
 	mainPage: async (req, res) => {
-		res.send('main page');
+		const data = model.find();
+		res.send(model);
 	}
 }
 
