@@ -9,6 +9,5 @@ const app = Router();
 app.get('/', ctr.mainPage);
 
 
-
 // Exports
 module.exports = app;
