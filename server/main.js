@@ -4,7 +4,7 @@ const app = express();
 
 // Settings
 app.set('port', process.env.PORT || 8080);
-import './lib/database';
+import './lib/database';q
 // middlewares
 
 // routes
